@@ -4,3 +4,9 @@
     gap: 30px;
     margin: 150px 0 70px;
 }
+
+@media screen and (max-width: 960px) {
+    .skills__wrapper {
+        grid-template-columns: 320px 1fr;
+    }
+}

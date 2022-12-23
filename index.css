@@ -15,6 +15,7 @@
 @import './blocks/lead/__span-accent/lead__span-accent.css';
 
 /* Стили для секции Services*/
+@import './blocks/services/services.css';
 @import './blocks/services/__cards/services__cards.css';
 @import './blocks/services/__title/services__title.css';
 @import './blocks/services/__subtitle/services__subtitle.css';
@@ -22,22 +23,28 @@
 
 
 /* Cтили для секциим Consulting */
+@import './blocks/consulting/consulting.css';
 @import './blocks/consulting/__wrapper/consulting__wrapperc.css';
 @import './blocks/consulting/__title/consulting__title.css';
 @import './blocks/consulting/__list/consulting__list.css';
 
 /* Стили для секции Escort */
+@import './blocks/escort/escort.css';
 @import './blocks/escort/__cards/escort__cards.css';
 
 /* Стили для секции Skills */
+@import './blocks/skills/skills.css';
 @import './blocks/skills/__cards/skills__cards.css';
 @import './blocks/skills/__more/skills__more.css';
+@import './blocks/skills/__more/_mobile/skills__more_mobile.css';
+
 @import './blocks/skills/__wrapper/skills__wrapper.css';
 @import './blocks/skills/__text/skills__text.css';
 @import './blocks/skills/__text-more/skills__text-more.css';
 @import './blocks/skills/__span-accent/skills__span-accent.css';
 
 /* Стили для секции mbm */
+@import './blocks/mbm/mbm.css';
 @import './blocks/mbm/__cards/mbm__cards.css';
 
 

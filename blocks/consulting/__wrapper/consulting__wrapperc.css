@@ -8,3 +8,11 @@
     margin: 0 auto 36px;
 
 }
+
+@media screen and (max-width: 960px) {
+    .consulting__wrapper {
+        flex-direction: column;
+        gap: 25px;
+
+    }
+}

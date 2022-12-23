@@ -1,9 +1,5 @@
-.lead {
-    margin: 0 auto 60px;
-}
-
 @media screen and (max-width: 960px) {
-    .lead {
+    .services {
         padding: 0 6vw;
     }
 }

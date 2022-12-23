@@ -1,7 +1,14 @@
 .skills__cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
-    gap: 30px;
+    gap: 98px 30px;
     margin: 98px 0;
     padding: 0;
+}
+
+@media screen and (max-width: 960px) {
+    .skills__cards {
+        grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+
+    }
 }
