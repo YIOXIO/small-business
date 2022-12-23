@@ -47,6 +47,9 @@
 @import './blocks/card/card.css';
 @import './blocks/card/__link/card__link.css';
 @import './blocks/card/__icon/card__icon.css';
+@import './blocks/card/_small/card_small.css';
+@import './blocks/card/__link/_small/card__link_small.css';
+@import './blocks/card/__icon/_small/';
 
 /* Стили для кнопки Small-business-btn */
 @import './blocks/buttons/small-business-btn.css';
