@@ -1,0 +1,7 @@
+.mbm__cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+    gap: 98px 30px;
+    margin: 98px 0 0;
+    padding: 0;
+}

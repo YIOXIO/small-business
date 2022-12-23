@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Evolventa";
+    font-weight: 400;
+    src: url('../vendor/fonts/Evolventa-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: "Evolventa";
+    font-weight: 700;
+    src: url('../vendor/fonts/Evolventa-Bold.woff') format('woff');
+}

@@ -1,0 +1,11 @@
+.skills__more {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 65px 0;
+    border-radius: 5px;
+    border: 1px solid goldenrod;
+    max-width: 770px;
+    box-sizing: border-box;
+
+}

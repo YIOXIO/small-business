@@ -1,0 +1,56 @@
+/* Страница - Центр онлайн-услуг для бизнеса HIVE.REA.RU */
+
+/* Общие стили */
+@import './vendor/fonts.css';
+@import './blocks/root/root.css';
+@import './blocks/page/page.css';
+
+
+/* Стили для секций */
+
+/* Стили для секции LEAD */
+@import './blocks/lead/lead.css';
+@import './blocks/lead/__title/lead__title.css';
+@import './blocks/lead/__description/lead__description.css';
+@import './blocks/lead/__span-accent/lead__span-accent.css';
+
+/* Стили для секции Services*/
+@import './blocks/services/__cards/services__cards.css';
+@import './blocks/services/__title/services__title.css';
+@import './blocks/services/__subtitle/services__subtitle.css';
+@import './blocks/services/__description/services__description.css';
+
+
+/* Cтили для секциим Consulting */
+@import './blocks/consulting/__wrapper/consulting__wrapperc.css';
+@import './blocks/consulting/__title/consulting__title.css';
+@import './blocks/consulting/__list/consulting__list.css';
+
+/* Стили для секции Escort */
+@import './blocks/escort/__cards/escort__cards.css';
+
+/* Стили для секции Skills */
+@import './blocks/skills/__cards/skills__cards.css';
+@import './blocks/skills/__more/skills__more.css';
+@import './blocks/skills/__wrapper/skills__wrapper.css';
+@import './blocks/skills/__text/skills__text.css';
+@import './blocks/skills/__text-more/skills__text-more.css';
+@import './blocks/skills/__span-accent/skills__span-accent.css';
+
+/* Стили для секции mbm */
+@import './blocks/mbm/__cards/mbm__cards.css';
+
+
+/* Стили для Элементов */
+
+/* Стили для Элемента CARD */
+@import './blocks/card/card.css';
+@import './blocks/card/__link/card__link.css';
+@import './blocks/card/__icon/card__icon.css';
+
+/* Стили для кнопки Small-business-btn */
+@import './blocks/buttons/small-business-btn.css';
+
+/* Стили для элемента Section-title & Section-subtitle */
+@import './blocks/section-title/section-title.css';
+@import './blocks/section-subtitle/section-subtitle.css';

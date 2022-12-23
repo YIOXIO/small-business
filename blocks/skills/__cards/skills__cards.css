@@ -1,0 +1,7 @@
+.skills__cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+    gap: 30px;
+    margin: 98px 0;
+    padding: 0;
+}

@@ -1,0 +1,10 @@
+.escort__cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+    max-width: 770px;
+    gap: 30px;
+    padding: 0;
+    margin: 98px 0 70px;
+
+
+}

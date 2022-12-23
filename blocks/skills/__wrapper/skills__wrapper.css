@@ -1,0 +1,6 @@
+.skills__wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 370px 770px);
+    gap: 30px;
+    margin: 150px 0 70px;
+}
