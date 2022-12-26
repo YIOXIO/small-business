@@ -5,3 +5,10 @@
     padding-bottom: 34px;
 
 }
+
+@media screen and (max-width: 1010px) {
+    .card__link_small {
+        font-size: 20px;
+        padding-bottom: 24px;
+    }
+}

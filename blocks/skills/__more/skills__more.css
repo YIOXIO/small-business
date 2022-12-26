@@ -15,3 +15,12 @@
         max-width: 100%;
     }
 }
+
+
+@media screen and (max-width: 600px) {
+    .skills__more {
+        flex-direction: column;
+        padding: 45px 0;
+        gap: 30px;
+    }
+}

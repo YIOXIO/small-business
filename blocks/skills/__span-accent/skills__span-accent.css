@@ -5,3 +5,9 @@
     margin: 0;
     padding: 0;
 }
+
+@media screen and (max-width: 600px) {
+    .skills__span-accent {
+        font-size: 24px;
+    }
+}

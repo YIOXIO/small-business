@@ -6,3 +6,11 @@
     padding: 0;
     max-width: 270px;
 }
+
+@media screen and (max-width: 600px) {
+    .skills__text {
+        font-size: 22px;
+        max-width: 330px;
+        text-align: center;
+    }
+}

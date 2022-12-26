@@ -9,3 +9,9 @@
 .lead__description:nth-child(3) {
     margin: 0;
 }
+
+@media screen and(max-width: 768px) {
+    .lead__description {
+        font-size: 20px;
+    }
+}

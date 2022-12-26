@@ -16,3 +16,12 @@
 .small-business-btn:hover {
     box-shadow: 0 0 12px #F9C432;
 }
+
+@media screen and (max-width:400px) {
+    .small-business-btn {
+        font-size: 18px;
+        line-height: 25px;
+        width: 80vw;
+        padding: 15px 30px;
+    }
+}

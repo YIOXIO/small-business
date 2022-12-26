@@ -3,3 +3,12 @@
     bottom: 140px;
     left: 27px;
 }
+
+@media screen and (max-width: 600px) {
+    .card__icon {
+        width: 85px;
+        height: 85px;
+        bottom: 150px;
+        left: 20px;
+    }
+}

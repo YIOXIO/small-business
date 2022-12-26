@@ -1,7 +1,23 @@
 .mbm__cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 98px 30px;
     margin: 98px 0 0;
     padding: 0;
+}
+
+
+@media screen and (max-width: 856px) {
+    .mbm__cards {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 70px;
+    }
+}
+
+
+@media screen and (max-width: 428px) {
+    .mbm__cards {
+        grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+        row-gap: 70px;
+    }
 }

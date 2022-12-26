@@ -1,6 +1,6 @@
 .services__cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+    grid-template-columns: 1fr 1fr 1fr;
     list-style: none;
     padding: 0;
     gap: 98px 30px;
@@ -10,5 +10,13 @@
 @media screen and (max-width: 960px) {
     .services__cards {
         grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .services__cards {
+        grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+        row-gap: 70px;
     }
 }

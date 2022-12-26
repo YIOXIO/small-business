@@ -2,3 +2,9 @@
     max-width: 1170px;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 1170px) {
+    .page {
+        padding: 0 4vw;
+    }
+}

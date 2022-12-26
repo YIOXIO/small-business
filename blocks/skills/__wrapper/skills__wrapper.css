@@ -5,8 +5,23 @@
     margin: 150px 0 70px;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1170px) {
     .skills__wrapper {
         grid-template-columns: 320px 1fr;
     }
+}
+
+@media screen and (max-width: 768px) {
+    .skills__wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .skills__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
 }

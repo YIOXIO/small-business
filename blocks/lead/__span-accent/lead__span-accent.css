@@ -5,3 +5,9 @@
     font-weight: 700;
     line-height: 32px;
 }
+
+@media screen and (max-wdith: 768px) {
+    .lead__span-accent {
+        font-size: 20px;
+    }
+}
