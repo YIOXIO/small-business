@@ -17,7 +17,7 @@
     box-shadow: 0 0 12px #F9C432;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:414px) {
     .small-business-btn {
         font-size: 18px;
         line-height: 25px;
