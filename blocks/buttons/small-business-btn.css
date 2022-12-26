@@ -11,6 +11,7 @@
     padding: 15px 36px;
     transition: .3s all ease-in;
     min-width: 235px;
+    color: #000;
 }
 
 .small-business-btn:hover {
